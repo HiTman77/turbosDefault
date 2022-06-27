@@ -6,7 +6,7 @@ html {
 
 body {
 	color: #fff;
-	background: #000000 url("bg.jpg") no-repeat left top fixed;
+	background: #000000 url("/data/files/bg.jpg") no-repeat left top fixed;
 	background-size: cover !important;
 	margin-bottom: 60px;
 	font-family: "Lucida Sans Unicode", Verdana;
@@ -22,7 +22,6 @@ body {
 	line-height: 73px;
 	vertical-align: middle;
 	text-align: center;
-	background: url("icons-graphic-design.png");
 	margin: 0 0 0 20px;
 	font-weight: bold;
 	padding: 0;
