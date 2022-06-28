@@ -30,26 +30,21 @@
 <ul class="nav navbar-nav navbar-right">
 <?= $Wcms->menu() ?>
 </ul>
-</div>
-</div>
+</div></div>
 </nav>
 <div class="container">
 <div class="row">
-<div class="col-lg-12 text-center padding40">
+<div class="col-lg-12 text-left padding40">
 <h3 align="center"><?= $Wcms->page('keywords') ?></h3>
 <h4 align="center"><?= $Wcms->page('description') ?></h4>
-    <?= $Wcms->page('content') ?>
-</div>
-</div>
-</div>
+<?= $Wcms->page('content') ?>
+</div></div></div>
 <div class="container-fluid blueBackground whiteFont">
 <div class="row">
-<div class="col-lg-12 text-center padding40">
+<div class="col-lg-12 text-left padding40">
     <?= $Wcms->block('subside') ?>
 <br>
-</div>
-</div>
-</div>
+</div></div></div>
 <footer class="container-fluid">
 <div class="text-right padding20">
 <?= $Wcms->footer() ?>
