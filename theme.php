@@ -8,10 +8,9 @@
 <title><?= $Wcms->page('title') ?> - <?= $Wcms->get('config', 'siteTitle') ?></title>
 <meta name="description" content="<?= $Wcms->page('description') ?>">
 <meta name="keywords" content="<?= $Wcms->page('keywords') ?>">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <?= $Wcms->css() ?>
-<link rel="stylesheet" href="<?= $Wcms->asset('css/style.css') ?>?v=1">
+<link rel="stylesheet" href="<?= $Wcms->asset('css/style.css') ?>?v=10">
 </head>
 <body>
 <?= $Wcms->settings() ?>
@@ -33,7 +32,7 @@
 </div></div>
 </nav>
 <div class="container">
-<div class="row">
+<div class="row opacity-50">
 <div class="col-lg-12 text-left padding40">
 <h3 align="center"><?= $Wcms->page('keywords') ?></h3>
 <h4 align="center"><?= $Wcms->page('description') ?></h4>
@@ -63,5 +62,6 @@ $('#scroller').click(function () {$('body,html').animate({scrollTop: 0}, 400); r
 <div style="position: fixed; top: 0px; left: 0px; width: 1423px; height: 649px; display: none;" class="QOverlay">
 <div style="overflow: hidden; position: relative; top: 0px; width: 100%; display: block; height: 500px;" class="QLoader"></div>
 </div>
+<video autoplay muted loop id="myVideo"><source src="/data/files/1video.mp4" type="video/mp4"></video>
 </body>
 </html>
