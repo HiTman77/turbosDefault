@@ -15,40 +15,19 @@
 <body>
 <?= $Wcms->settings() ?>
 <?= $Wcms->alerts() ?>
-<nav class="navbar navbar-default">
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-collapse">
-<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-</button>
-<a href="<?= $Wcms->url() ?>">
-<h3><a class="navbar-brand" href="/"><img src="/data/files/logo.png" alt="<?= $Wcms->siteTitle() ?>"></h3>
-</a>
-</div>
+<nav class="navbar navbar-default"><div class="container"><div class="navbar-header"><a href="<?= $Wcms->url() ?>"><h3><a class="navbar-brand" href="/"><img src="/data/files/logo.png" alt="<?= $Wcms->siteTitle() ?>"></h3></a></div>
 <div class="collapse navbar-collapse" id="menu-collapse">
 <ul class="nav navbar-nav navbar-right">
-<?= $Wcms->menu() ?>
-</ul>
-</div></div>
-</nav>
-<div class="container">
-<div class="row opacity-50">
-<div class="col-lg-12 text-left padding40">
+<?= $Wcms->menu() ?></ul></div></div></nav>
+<div class="container"><div class="row opacity-50"><div class="col-lg-12 text-left padding40">
 <h3 align="center"><?= $Wcms->page('keywords') ?></h3>
 <h4 align="center"><?= $Wcms->page('description') ?></h4>
 <?= $Wcms->page('content') ?>
 </div></div></div>
-<div class="container-fluid blueBackground whiteFont">
-<div class="row">
-<div class="col-lg-12 text-left padding40">
-    <?= $Wcms->block('subside') ?>
-<br>
-</div></div></div>
-<footer class="container-fluid">
-<div class="text-right padding20">
-<?= $Wcms->footer() ?>
-</div>
-</footer>
+<div class="container-fluid blueBackground whiteFont"><div class="row"><div class="col-lg-12 text-left padding40">
+<?= $Wcms->block('subside') ?>
+<br /></div></div></div>
+<footer class="container-fluid"><div class="text-left padding100"><?= $Wcms->footer() ?></div></footer>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <?= $Wcms->js() ?>
@@ -62,6 +41,6 @@ $('#scroller').click(function () {$('body,html').animate({scrollTop: 0}, 400); r
 <div style="position: fixed; top: 0px; left: 0px; width: 1423px; height: 649px; display: none;" class="QOverlay">
 <div style="overflow: hidden; position: relative; top: 0px; width: 100%; display: block; height: 500px;" class="QLoader"></div>
 </div>
-<video autoplay muted loop id="myVideo"><source src="/data/files/1video.mp4" type="video/mp4"></video>
+<video autoplay muted loop id="myVideo"><source src="/data/files/video.mp4" type="video/mp4"></video>
 </body>
 </html>
